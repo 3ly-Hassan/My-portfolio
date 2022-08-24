@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -39,12 +41,19 @@ class SideMenu extends StatelessWidget {
                     Divider(),
                     SizedBox(height: defaultPadding / 2),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        AnchorElement(
+                            href:
+                                'https://drive.google.com/file/d/1B7an23TEtG66R3IRVAQ7mu3bJqhAKvnh/view')
+                          ..setAttribute(
+                              'download', '<downloaded_file_name.pdf>')
+                          ..click();
+                      },
                       child: FittedBox(
                         child: Row(
                           children: [
                             Text(
-                              'DWONLOAD CV',
+                              'VIEW CV',
                               style: TextStyle(
                                   color: Theme.of(context)
                                       .textTheme
