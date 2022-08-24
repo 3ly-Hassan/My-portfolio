@@ -12,7 +12,3 @@
 - Poppins [link](https://fonts.google.com/specimen/Poppins)
 
 ### Responsive and Animated Portfolio Website & App Final UI
-
-![Preview](/gif.gif)
-
-![App UI](/ui.png)
