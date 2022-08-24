@@ -6,27 +6,28 @@ class Recommendation {
 
 final List<Recommendation> demo_recommendations = [
   Recommendation(
-    name: "Kolapo Obanewa",
-    source: "Linkedin",
+    name: "Profile",
+    source: "",
     text:
-        "I have had the pleasure of working with Anwar on two flutter projects and what strikes me the most about his work is his ability to write clean and reusable codes with best practices. He is hardworking and makes it so easy to transcribe ideas into beautiful and testable flutter apps. He is a Flutter/Dart gem and has my highest recommendation",
+        "Enthusiastic engineering graduate with basic knowledge in coding and design. Proficient in HTML,CSS, JavaScript,Dart, Flutter, Java, and Python. Ability to learn new softwares and technologies quickly. Capability to work in teams by providing valuable support.",
   ),
   Recommendation(
-    name: "Reza Shahbazi",
-    source: "Linkedin",
+    name: "Education",
+    source: "Faculty of engineering tanta university",
     text:
-        "Abu is great asset for any organization. It's a true pleasure working with him at TakeIn. His flutter skill is amazing as well as his professionalism and being a good team player. Abu's problem solving skill is also one of his great skills.",
+        "I graduated from the faculty of engineering tanta university in 2022. I've been a hard workig student and I graduated with a good grade ",
   ),
+
   Recommendation(
-    name: "Diadem",
-    source: "YouTube",
+    name: "Junior Flutter Developer",
+    source: "R-Star (live star app)",
     text:
-        "I like your way you doing your project and you taught us. After I watch this I like and hit the subscribe button and then watch your video playlist one by one!! Within three hours, I learned a lot! I share your channel in my college WhatsApp group!",
+        "Build reusable code and libraries for future use, Integrate various APIs from third parties, Modify and improve the previous code and Add new features to the application (audio rooms) ",
   ),
-  Recommendation(
-    name: "Roshan Shetty",
-    source: "YouTube",
-    text:
-        "Very straightforward, professional and also the best flutter videos in the youtube! It will be great if you add some comments to your steps with 0.5 seconds pause before implementing this step. By meaning of steps, I mean not the basic, but structural steps, like 10-20 steps per video. However, thank you very much!",
-  ),
+  // Recommendation(
+  //   name: "Roshan Shetty",
+  //   source: "YouTube",
+  //   text:
+  //       "Very straightforward, professional and also the best flutter videos in the youtube! It will be great if you add some comments to your steps with 0.5 seconds pause before implementing this step. By meaning of steps, I mean not the basic, but structural steps, like 10-20 steps per video. However, thank you very much!",
+  // ),
 ];
